@@ -12,13 +12,12 @@ do
       app=`echo $line | cut -d, -f3`
 
       running=`ps -ef | grep node | grep "$app"`
-      if [ $? -eq 0 ]
-      then
-        sleep 5
-      else
+      if [ $? -ne 0 ]
         echo "CRASHED! Re-starting \"$app\" server at `date`"
         node /usr/apps/$dir/src/server.js $port \"$app\" &
+        ps -ef | grep node  | sort -k10
       fi
     fi
   done < $apps
+  sleep 10
 done
