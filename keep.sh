@@ -17,7 +17,7 @@ do
         sleep 5
       else
         echo "CRASHED! Re-starting \"$app\" server at `date`"
-        echo "$dir/src/server.js $port \"$app\" &"
+        node /usr/apps/$dir/src/server.js $port \"$app\" &
       fi
     fi
   done < $apps
