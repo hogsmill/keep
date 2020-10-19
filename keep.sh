@@ -11,7 +11,7 @@ do
       dir=`echo $line | cut -d, -f2`
       app=`echo $line | cut -d, -f3`
 
-      running=`ps -ef | grep node | grep "$app"`
+      running=`ps -ef | grep node | grep "$app" | grep -v grep`
       if [ $? -ne 0 ]
       then
         echo "CRASHED! Re-starting \"$app\" server at `date`"
@@ -20,5 +20,13 @@ do
       fi
     fi
   done < $apps
+
+  mongo=`ps -ef | grep node | grep "$app" | grep -v grep`
+  if [ $? -ne 0 ]
+  then
+    echo "MONGO CRASHED! Re-starting at `date`"
+    /usr/bin/mongod --config /etc/mongod.conf &
+  fi
+
   sleep 10
 done
