@@ -11,14 +11,14 @@ do
       dir=`echo $line | cut -d, -f2`
       app=`echo $line | cut -d, -f3`
 
-      running=`ps -ef | grep node | grep app`
+      running=`ps -ef | grep node | grep "$app"`
       if [ $? -eq 0 ]
       then
         sleep 5
       else
-        echo "CRASHED! Re-starting $app server at `date`"
-        node $dir/src/server.js $port '$app' &
+        echo "CRASHED! Re-starting \"$app\" server at `date`"
+        echo "$dir/src/server.js $port \"$app\" &"
       fi
     fi
   done < $apps
-exit 0
+done
