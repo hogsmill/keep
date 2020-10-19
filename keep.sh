@@ -15,7 +15,7 @@ do
       if [ $? -ne 0 ]
       then
         echo "CRASHED! Re-starting \"$app\" server at `date`"
-        node /usr/apps/$dir/src/server.js $port \"$app\" &
+        node /usr/apps/$dir/src/server.js $port $app &
         ps -ef | grep node  | sort -k10
       fi
     fi
