@@ -8,7 +8,7 @@
 #3006,health-check,Health-Check
 3007,no-estimates,No Estimates
 3008,battleships,Agile Battleships
-3009,change-management-game,M3.0 Change Management
+#3009,change-management-game,M3.0 Change Management
 #3010,pig-racing,Pig Racing
 3011,survival,Survival At Sea
 3012,monitor,Monitor
