@@ -3,9 +3,13 @@ apps='apps.txt'
 
 while read line
 do
-  if [ $line !~ ^\# ]
+  if [[ ! $line =~ ^\# ]]
   then
-    echo "$line"
+    id=`echo $line | cut -d, -f1`
+    dir=`echo $line | cut -d, -f2`
+    app=`echo $line | cut -d, -f3`
+
+    echo "id: $id, dir: $dir, app: $app"
   fi
 done < $apps
 
