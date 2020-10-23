@@ -21,7 +21,7 @@ do
     fi
   done < $apps
 
-  mongo=`ps -ef | grep node | grep "$app" | grep -v grep`
+  mongo=`ps -ef | grep mongod | grep -v grep`
   if [ $? -ne 0 ]
   then
     echo "MONGO CRASHED! Re-starting at `date`"
