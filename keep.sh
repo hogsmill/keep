@@ -1,5 +1,5 @@
 #!/bin/bash
-apps='apps.txt'
+apps='/usr/keep/apps.txt'
 
 while read line
 do
