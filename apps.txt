@@ -3,9 +3,8 @@
 3001,do-others-work-first-js,Team Dependency Simulation
 3002,pairing-simulation,Pairing
 3003,context-switching,Context Switching
-#3004,lego-flow,Lego-Flow
+3004,planning-poker,Planning Poker
 3005,mastermind,Mastermind
-#3006,health-check,Health-Check
 3007,no-estimates,No Estimates
 3008,battleships,Agile Battleships
 #3009,change-management-game,M3.0 Change Management
