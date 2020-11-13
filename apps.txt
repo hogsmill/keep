@@ -11,4 +11,4 @@
 #3009,change-management-game,M3.0 Change Management
 #3010,pig-racing,Pig Racing
 3011,survival,Survival At Sea
-3012,monitor,Monitor
+3013,labs,Labs
