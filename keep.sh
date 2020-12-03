@@ -13,9 +13,8 @@ do
     running=`ps -ef | grep node | grep "$app" | grep -v grep`
     if [ $? -ne 0 ]
     then
-      echo "CRASHED! Re-starting \"$app\" server at `date`"
+      echo "Re-started \"$app\" server at `date`"
       node /usr/apps/$dir/src/server.js $port "$app" $logFile &
-      ps -ef | grep node  | sort -k10
     fi
   fi
 done < $apps
