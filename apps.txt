@@ -1,16 +1,20 @@
 # Port, App, name
+# Primary apps
+#
 3000,coin-game,Coin Game
+3007,no-estimates,No Estimates
+3004,planning-poker,Planning Poker
+3008,battleships,Agile Battleships
+3011,survival,Survival At Sea
+3014,kanban,Kanban
+3003,context-switching,Context Switching
+# Other apps
+#
 3001,do-others-work-first-js,Team Dependency Simulation
 3002,pairing-simulation,Pairing
-3003,context-switching,Context Switching
-3004,planning-poker,Planning Poker
 3005,mastermind,Mastermind
 #3006,login,Login
-3007,no-estimates,No Estimates
-3008,battleships,Agile Battleships
 #3009,change-management-game,M3.0 Change Management
 #3010,pig-racing,Pig Racing
-3011,survival,Survival At Sea
 3012,monitor,Monitor
 3013,labs,Labs
-3014,kanban,Kanban
