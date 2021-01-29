@@ -9,6 +9,7 @@
 3011,survival,Survival At Sea
 3014,kanban,Kanban
 3003,context-switching,Context Switching
+3016,socket-test,Socket Test
 # Other apps
 #
 3001,do-others-work-first-js,Team Dependency Simulation
