@@ -3,6 +3,7 @@
 #
 3000,coin-game,Coin Game
 3007,no-estimates,No Estimates
+3017,interdependent-teams,Interdependent Teams
 3015,test-app,L-EAF Test App
 3004,planning-poker,Planning Poker
 3008,battleships,Agile Battleships
