@@ -10,7 +10,7 @@ do
     app=`echo $line | cut -d, -f3`
     logFile="/usr/apps/logs/$dir.log"
 
-    running=`ps -ef | grep node | grep "$port" | grep -v grep`
+    running=`ps -ef | grep node | grep "$port $app" | grep -v grep`
     if [ $? -ne 0 ]
     then
       echo "Re-started \"$app\" server at `date`"
