@@ -2,8 +2,8 @@
 # Primary apps
 #
 3000,coin-game,Coin Game
-3007,no-estimates,No Estimates,yes
-3020,no-estimates-new,No Estimates New,yes
+3007,no-estimates,No Estimates
+3020,no-estimates-new,No Estimates New
 3018,no-estimates-mobile,No Estimates Mobile
 3017,interdependent-teams,Interdependent Teams
 3015,test-app,L-EAF Test App
