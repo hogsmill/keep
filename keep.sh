@@ -17,7 +17,7 @@ do
       echo "Re-started \"$app\" server at `date`"
       if [[ "$cfg" == "yes" ]]
       then
-        node /usr/apps/$dir/src/server.js $port "$app" $logFile dotenv_config_path=/usr/apps/$dir/.env &
+        node /usr/apps/$dir/src/server.js $port "$app" $logFile dotenv_config_path=/usr/apps/$dir &
       else
         node /usr/apps/$dir/src/server.js $port "$app" $logFile &
       fi
