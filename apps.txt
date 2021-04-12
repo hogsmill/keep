@@ -5,6 +5,7 @@
 3007,no-estimates,No Estimates
 3020,no-estimates-new,No Estimates New
 3018,no-estimates-mobile,No Estimates Mobile
+3021,no-estimates-mobile-new,No Estimates Mobile New
 3017,interdependent-teams,Interdependent Teams
 3015,test-app,L-EAF Test App
 3004,planning-poker,Planning Poker
