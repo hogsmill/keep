@@ -1,25 +1,29 @@
 # Port, App, name, config (yes)
-# Primary apps
+# Default Apps
 #
-3000,coin-game,Coin Game
-3007,no-estimates,No Estimates
-3020,no-estimates-new,No Estimates New
-3018,no-estimates-mobile,No Estimates Mobile
-3021,no-estimates-mobile-new,No Estimates Mobile New
-3017,interdependent-teams,Interdependent Teams
-3015,test-app,L-EAF Test App
-3004,planning-poker,Planning Poker
-3008,battleships,Agile Battleships
-3011,survival,Survival At Sea
-3014,kanban,Kanban
-3003,context-switching,Context Switching
-3016,socket-test,Socket Test
-# Other apps
+default,3000,coin-game,Coin Game
+default,3007,no-estimates,No Estimates
+default,3018,no-estimates-mobile,No Estimates Mobile
+default,3017,interdependent-teams,Interdependent Teams
+default,3015,test-app,L-EAF Test App
+default,3004,planning-poker,Planning Poker
+default,3008,battleships,Agile Battleships
+default,3011,survival,Survival At Sea
+default,3014,kanban,Kanban
+default,3003,context-switching,Context Switching
+default,3016,socket-test,Socket Test
 #
-3001,do-others-work-first-js,Team Dependency Simulation
-3002,pairing-simulation,Pairing
-3005,mastermind,Mastermind
-#3006,login,Login
-3010,pig-racing,Pig Racing
-3012,monitor,Monitor
-3013,labs,Labs
+# Test Apps
+#
+test,3020,no-estimates-test,No Estimates Test
+test,3021,no-estimates-mobile-test,No Estimates Mobile Test
+#
+# Other apps (default)
+#
+default,3001,do-others-work-first-js,Team Dependency Simulation
+default,3002,pairing-simulation,Pairing
+default,3005,mastermind,Mastermind
+#default,3006,login,Login
+default,3010,pig-racing,Pig Racing
+default,3012,monitor,Monitor
+default,3013,labs,Labs
