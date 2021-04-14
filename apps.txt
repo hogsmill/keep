@@ -16,7 +16,7 @@ default,3016,socket-test,Socket Test
 # Test Apps
 #
 test,3020,no-estimates-new,No Estimates New
-test,3021,no-estimates-mobile-test,No Estimates Mobile New
+test,3021,no-estimates-mobile-new,No Estimates Mobile New
 #
 # Other apps (default)
 #
