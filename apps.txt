@@ -11,7 +11,7 @@ default,3008,battleships,Agile Battleships
 default,3011,survival,Survival At Sea
 default,3014,kanban,Kanban
 default,3003,context-switching,Context Switching
-default,3016,socket-test,Socket Test
+#default,3016,socket-test,Socket Test
 #
 # Test Apps
 #
