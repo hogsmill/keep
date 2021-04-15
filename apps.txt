@@ -18,6 +18,12 @@ default,3016,socket-test,Socket Test
 test,3020,no-estimates-new,No Estimates New
 test,3021,no-estimates-mobile-new,No Estimates Mobile New
 #
+#
+# Bandwidth Apps (Mark Alba)
+#
+test,3022,no-estimates-bandwidth,No Estimates Bandwidth
+test,3023,no-estimates-mobile-bandwidth,No Estimates Bandwidth Mobile
+#
 # Other apps (default)
 #
 default,3001,do-others-work-first-js,Team Dependency Simulation
