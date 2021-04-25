@@ -19,6 +19,7 @@ default,3016,socket-test,Socket Test
 test,3020,no-estimates-new,No Estimates New
 test,3021,no-estimates-mobile-new,No Estimates Mobile New
 test,3024,coin-game-new,Coin Game New
+test,3025,battleships-new,Battleships New
 #
 #
 # Bandwidth Apps (Mark Alba)
