@@ -22,6 +22,7 @@ test,3024,coin-game-new,Coin Game New
 test,3026,battleships-new,Battleships New
 test,3027,survival-new,Survival New
 test,3028,kanban-new,Kanban New
+test,3029,planning-poker-new,Planning Poker New
 #
 #
 # Bandwidth Apps (Mark Alba)
