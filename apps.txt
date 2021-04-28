@@ -5,6 +5,7 @@ default,3000,coin-game,Coin Game
 default,3007,no-estimates,No Estimates
 default,3018,no-estimates-mobile,No Estimates Mobile
 default,3025,pipeline-game,Pipeline Game
+default,3030,kanban-playground,Kanban Playground
 default,3017,interdependent-teams,Interdependent Teams
 default,3015,test-app,L-EAF Test App
 default,3004,planning-poker,Planning Poker
