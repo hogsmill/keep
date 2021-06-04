@@ -1,7 +1,6 @@
 # Port, App, name, config (yes)
 # Default Apps
 #
-default,3030,agilesimulations,Agile Simulations
 default,3000,coin-game,Coin Game
 default,3007,no-estimates,No Estimates
 default,3018,no-estimates-mobile,No Estimates Mobile
@@ -13,7 +12,6 @@ default,3015,test-app,L-EAF Test App
 default,3004,planning-poker,Planning Poker
 default,3008,battleships,Agile Battleships
 default,3011,survival,Survival At Sea
-default,3014,kanban,Kanban
 default,3003,context-switching,Context Switching
 default,3016,socket-test,Socket Test
 #
