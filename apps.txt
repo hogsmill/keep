@@ -1,7 +1,7 @@
 # Port, App, name, config (yes)
 # Default Apps
 #
-default,3099,agile-simulations,Agile Simulations
+default,3099,agilesimulations,Agile Simulations
 default,3000,coin-game,Coin Game
 default,3007,no-estimates,No Estimates
 default,3018,no-estimates-mobile,No Estimates Mobile
