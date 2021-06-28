@@ -2,7 +2,7 @@
 # Default Apps
 #
 # ====================
-# Max Port: 3034
+# Max Port: 3036
 # ====================
 
 default,3099,agilesimulations,Agile Simulations
@@ -27,6 +27,7 @@ test,3020,no-estimates-new,No Estimates New
 test,3021,no-estimates-mobile-new,No Estimates Mobile New
 test,3034,planning-poker-new,Planning Poker New
 test,3035,coin-game-new,Coin Game New
+test,3036,battleships-new,Agile Battleships New
 test,3027,survival-new,Survival New
 #
 #
