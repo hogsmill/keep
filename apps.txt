@@ -1,6 +1,10 @@
 # Port, App, name, config (yes)
 # Default Apps
 #
+# ====================
+# Max Port: 3034
+# ====================
+
 default,3099,agilesimulations,Agile Simulations
 default,3000,coin-game,Coin Game
 default,3007,no-estimates,No Estimates
@@ -21,6 +25,7 @@ default,3016,socket-test,Socket Test
 #
 test,3020,no-estimates-new,No Estimates New
 test,3021,no-estimates-mobile-new,No Estimates Mobile New
+test,3034,planning-poker-new,Planning Poker New
 test,3027,survival-new,Survival New
 #
 #
