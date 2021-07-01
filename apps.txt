@@ -2,7 +2,7 @@
 # Default Apps
 #
 # ====================
-# Max Port: 3036
+# Max Port: 3037
 # ====================
 
 default,3099,agilesimulations,Agile Simulations
@@ -20,6 +20,10 @@ default,3011,survival,Survival At Sea
 default,3003,context-switching,Context Switching
 default,3033,requirements-game,BA Shouting
 default,3016,socket-test,Socket Test
+#
+#
+#
+game-join-test,3037,no-estimates-game-test,No Estimates Game Join Test
 #
 # Test Apps
 #
