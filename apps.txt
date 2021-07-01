@@ -23,7 +23,7 @@ default,3016,socket-test,Socket Test
 #
 #
 #
-game-join-test,3037,no-estimates-game-test,No Estimates Game Join Test
+gamejointest,3037,no-estimates-game-test,No Estimates Game Join Test
 #
 # Test Apps
 #
