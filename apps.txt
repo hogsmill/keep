@@ -2,13 +2,15 @@
 # Default Apps
 #
 # ====================
-# Max Port: 3037
+# Max Port: 3039
 # ====================
 
 default,3099,agilesimulations,Agile Simulations
 default,3000,coin-game,Coin Game
 default,3007,no-estimates,No Estimates
 default,3018,no-estimates-mobile,No Estimates Mobile
+default,3038,five-dysfunctions,5 Dysfunctions
+default,3039,team-health-check,Team Health Check
 default,3025,pipeline-game,Pipeline Game
 default,3030,kanban-playground,Kanban Playground
 default,3031,kanban-playground-mobile,Kanban Playground Mobile
@@ -21,7 +23,7 @@ default,3003,context-switching,Context Switching
 default,3033,requirements-game,BA Shouting
 default,3016,socket-test,Socket Test
 #
-#
+# Test Game Joining
 #
 gamejointest,3037,no-estimates-game-test,No Estimates Game Join Test
 #
