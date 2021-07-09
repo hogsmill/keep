@@ -2,7 +2,7 @@
 # Default Apps
 #
 # ====================
-# Max Port: 3039
+# Max Port: 3040
 # ====================
 
 default,3099,agilesimulations,Agile Simulations
@@ -22,6 +22,11 @@ default,3011,survival,Survival At Sea
 default,3003,context-switching,Context Switching
 default,3033,requirements-game,BA Shouting
 default,3016,socket-test,Socket Test
+#
+# Funconf
+#
+funconf,3040,no-estimates-funconf,No Estimates - Funconf 2021
+#
 #
 # Test Game Joining
 #
