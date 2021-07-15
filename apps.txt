@@ -34,11 +34,6 @@ dex,3053,pipeline-game-dex,Pipeline Game Dex
 #
 funconf,3042,no-estimates-funconf,No Estimates - Funconf 2021
 #
-#
-# Test Game Joining
-#
-gamejointest,3037,no-estimates-game-test,No Estimates Game Join Test
-#
 # Test Apps
 #
 test,3020,no-estimates-new,No Estimates New
@@ -56,12 +51,6 @@ guardian,3024,coin-game-guardian,Coin Game
 guardian,3026,battleships-guardian,Battleships
 guardian,3029,planning-poker-guardian,Planning Poker
 guardian,3032,context-switching-guardian,Context Switching
-#
-#
-# Bandwidth Apps (Mark Alba)
-#
-bandwidth,3022,no-estimates-bandwidth,No Estimates Bandwidth
-bandwidth,3023,no-estimates-mobile-bandwidth,No Estimates Bandwidth Mobile
 #
 # Other apps (default)
 #
