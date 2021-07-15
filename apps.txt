@@ -12,6 +12,7 @@ default,3018,no-estimates-mobile,No Estimates Mobile
 default,3038,five-dysfunctions,5 Dysfunctions
 default,3039,team-health-check,Team Health Check
 default,3025,pipeline-game,Pipeline Game
+default,3054,death-star-builder,Death Star Builder
 default,3030,kanban-playground,Kanban Playground
 default,3031,kanban-playground-mobile,Kanban Playground Mobile
 default,3017,interdependent-teams,Interdependent Teams
@@ -29,6 +30,7 @@ dex,3050,coin-game-dex,Coin Game Dex
 dex,3051,no-estimates-dex,No Estimates Dex
 dex,3052,no-estimates-mobile-dex,No Estimates Mobile Dex
 dex,3053,pipeline-game-dex,Pipeline Game Dex
+dex,3055,death-star-builder-dex,Death Star Builder Dex
 #
 # Funconf
 #
