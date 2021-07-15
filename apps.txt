@@ -25,10 +25,10 @@ default,3016,socket-test,Socket Test
 #
 # Dex
 #
-default,3050,coin-game,Coin Game
-default,3051,no-estimates,No Estimates
-default,3052,no-estimates-mobile,No Estimates Mobile
-default,3053,pipeline-game,Pipeline Game
+dex,3050,coin-game-dex,Coin Game Dex
+dex,3051,no-estimates-dex,No Estimates Dex
+dex,3052,no-estimates-mobile-dex,No Estimates Mobile Dex
+dex,3053,pipeline-game-dex,Pipeline Game Dex
 #
 # Funconf
 #
