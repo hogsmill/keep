@@ -29,6 +29,7 @@ default,3016,socket-test,Socket Test
 ratesetter,3056,coin-game-ratesetter,Coin Game
 ratesetter,3057,no-estimates-ratesetter,No Estimates
 ratesetter,3058,kanban-playground-ratesetter,Kanban Playground
+ratesetter,3059,planning-poker-ratesetter,Planning Poker
 #
 # Dex
 #
