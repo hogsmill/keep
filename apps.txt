@@ -30,6 +30,8 @@ ratesetter,3056,coin-game-ratesetter,Coin Game
 ratesetter,3057,no-estimates-ratesetter,No Estimates
 ratesetter,3058,kanban-playground-ratesetter,Kanban Playground
 ratesetter,3059,planning-poker-ratesetter,Planning Poker
+ratesetter,3060,battleships-ratesetter,Agile Battleships
+
 #
 # Dex
 #
