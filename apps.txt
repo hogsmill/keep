@@ -24,6 +24,11 @@ default,3003,context-switching,Context Switching
 default,3033,requirements-game,BA Shouting
 default,3016,socket-test,Socket Test
 #
+# Ratesetter
+#
+ratesetter,3056,con-game-ratesetter,Coin Game
+#
+#
 # Dex
 #
 dex,3050,coin-game-dex,Coin Game Dex
