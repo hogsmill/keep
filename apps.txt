@@ -32,7 +32,9 @@ default,3061,billy-bonkers,Billy Bonkers
 #
 ratesetter,3056,coin-game-ratesetter,Coin Game
 ratesetter,3057,no-estimates-ratesetter,No Estimates
+ratesetter,3073,no-estimates-mobile-ratesetter,No Estimates mobile
 ratesetter,3058,kanban-playground-ratesetter,Kanban Playground
+ratesetter,3074,kanban-playground-mobile-ratesetter,Kanban Playground Mobile
 ratesetter,3059,planning-poker-ratesetter,Planning Poker
 ratesetter,3060,battleships-ratesetter,Agile Battleships
 ratesetter,3062,survival-ratesetter,Survival At Sea
@@ -43,7 +45,9 @@ ratesetter,3063,context-switching-ratesetter,Context Switching
 #
 everydayagile,3064,coin-game-eagile,Coin Game
 everydayagile,3065,no-estimates-eagile,No Estimates
+everydayagile,3075,no-estimates-mobile-eagile,No Estimates Mobile
 everydayagile,3066,kanban-playground-eagile,Kanban Playground
+everydayagile,3076,kanban-playground-mobile-eagile,Kanban Playground Mobile
 everydayagile,3067,planning-poker-eagile,Planning Poker
 everydayagile,3068,battleships-eagile,Agile Battleships
 everydayagile,3069,survival-eagile,Survival At Sea
