@@ -49,6 +49,7 @@ everydayagile,3068,battleships-eagile,Agile Battleships
 everydayagile,3069,survival-eagile,Survival At Sea
 everydayagile,3070,five-dysfunctions-eagile,5 Dysfunctions
 everydayagile,3071,team-health-check-eagie,Team Health Check
+everydayagile,3072,context-switching-eagile,Context Switching
 #
 # Dex
 #
