@@ -1,16 +1,13 @@
 # Port, App, name, config (yes)
 # Default Apps
 #
-# ====================
-# Max Port: 3060
-# ====================
-#
 default,3099,agilesimulations,Agile Simulations
 default,3000,coin-game,Coin Game
 default,3007,no-estimates,No Estimates
 default,3018,no-estimates-mobile,No Estimates Mobile
 default,3038,five-dysfunctions,5 Dysfunctions
 default,3039,team-health-check,Team Health Check
+default,3077,agile-assessment,Agile Assessment
 default,3025,pipeline-game,Pipeline Game
 default,3054,death-star-builder,Death Star Builder
 default,3030,kanban-playground,Kanban Playground
