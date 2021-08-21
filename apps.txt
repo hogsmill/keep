@@ -23,7 +23,7 @@ default,3016,socket-test,Socket Test
 #
 # Billy Bonkers
 #
-default,3061,billy-bonkers,Billy Bonkers
+#default,3061,billy-bonkers,Billy Bonkers
 #
 # Ratesetter (Use licence)
 #
@@ -87,8 +87,7 @@ guardian,3032,context-switching-guardian,Context Switching
 default,3001,do-others-work-first-js,Team Dependency Simulation
 default,3002,pairing-simulation,Pairing
 default,3005,mastermind,Mastermind
-#default,3006,login,Login
-default,3010,pig-racing,Pig Racing
+#default,3010,pig-racing,Pig Racing
 default,3012,monitor,Monitor
 default,3013,labs,Labs
 default,3098,todo,To Do
