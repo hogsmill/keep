@@ -21,10 +21,6 @@ default,3003,context-switching,Context Switching
 default,3033,requirements-game,BA Shouting
 default,3016,socket-test,Socket Test
 #
-# Billy Bonkers
-#
-#default,3061,billy-bonkers,Billy Bonkers
-#
 # Ratesetter (Use licence)
 #
 ratesetter,3056,coin-game-ratesetter,Coin Game
