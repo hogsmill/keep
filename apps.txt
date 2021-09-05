@@ -60,6 +60,10 @@ dex,3055,death-star-builder-dex,Death Star Builder Dex
 #
 funconf,3042,no-estimates-funconf,No Estimates - Funconf 2021
 #
+# Funconf
+#
+zoran,3079,no-estimates-zoran,No Estimates - Free Trial
+#
 # Test Apps
 #
 test,3020,no-estimates-new,No Estimates New
