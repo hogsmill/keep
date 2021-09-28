@@ -81,6 +81,8 @@ guardian,3024,coin-game-guardian,Coin Game
 guardian,3026,battleships-guardian,Battleships
 guardian,3029,planning-poker-guardian,Planning Poker
 guardian,3032,context-switching-guardian,Context Switching
+guardian,3101,five-dysfunctions-guardian,5 Dysfunctions
+guardian,3102,team-health-check-guardian,Team Health Check
 #
 # Other apps (default)
 #
