@@ -74,6 +74,7 @@ test,3040,five-dysfunctions-new,5 Dysfunctions New
 test,3041,team-health-check-new,Team Health Check New
 test,3036,battleships-new,Agile Battleships New
 test,3027,survival-new,Survival New
+test,3103,socket-test-new,Socket Test New
 #
 # Guardian Training
 #
