@@ -21,6 +21,7 @@ default,3011,survival,Survival At Sea
 default,3003,context-switching,Context Switching
 default,3033,requirements-game,BA Shouting
 default,3016,socket-test,Socket Test
+default,3100,skills-matrix,Skills Matrix
 #
 # Ratesetter (Use licence)
 #
@@ -47,6 +48,20 @@ everydayagile,3069,survival-eagile,Survival At Sea
 everydayagile,3070,five-dysfunctions-eagile,5 Dysfunctions
 everydayagile,3071,team-health-check-eagile,Team Health Check
 everydayagile,3072,context-switching-eagile,Context Switching
+#
+# AND
+#
+and,3101,coin-game-and,Coin Game
+and,3102,no-estimates-and,No Estimates
+and,3103,no-estimates-mobile-and,No Estimates Mobile
+and,3104,kanban-playground-and,Kanban Playground
+and,3105,kanban-playground-mobile-and,Kanban Playground Mobile
+and,3106,planning-poker-and,Planning Poker
+and,3107,battleships-and,Agile Battleships
+and,3108,survival-and,Survival At Sea
+and,3109,five-dysfunctions-and,5 Dysfunctions
+and,3110,team-health-check-and,Team Health Check
+and,3111,context-switching-and,Context Switching
 #
 # Dex
 #
