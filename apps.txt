@@ -51,8 +51,8 @@ everydayagile,3072,context-switching-eagile,Context Switching
 #
 # AND
 #
-and,3101,coin-game-and,Coin Game
-and,3102,no-estimates-and,No Estimates
+and,3113,coin-game-and,Coin Game
+and,3112,no-estimates-and,No Estimates
 and,3103,no-estimates-mobile-and,No Estimates Mobile
 and,3104,kanban-playground-and,Kanban Playground
 and,3105,kanban-playground-mobile-and,Kanban Playground Mobile
