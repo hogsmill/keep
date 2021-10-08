@@ -47,9 +47,11 @@ everydayagile,3068,battleships-eagile,Agile Battleships
 everydayagile,3069,survival-eagile,Survival At Sea
 everydayagile,3070,five-dysfunctions-eagile,5 Dysfunctions
 everydayagile,3071,team-health-check-eagile,Team Health Check
+everydayagile,3117,agile-maturity-and,Agile Maturity
+everydayagile,3118,scrum-master-and,Scrum Master Assessment
 everydayagile,3072,context-switching-eagile,Context Switching
 #
-# AND
+# AND (Regular use licence)
 #
 and,3113,coin-game-and,Coin Game
 and,3112,no-estimates-and,No Estimates
@@ -61,6 +63,8 @@ and,3107,battleships-and,Agile Battleships
 and,3108,survival-and,Survival At Sea
 and,3109,five-dysfunctions-and,5 Dysfunctions
 and,3110,team-health-check-and,Team Health Check
+and,3115,agile-maturity-and,Agile Maturity
+and,3116,scrum-master-and,Scrum Master Assessment
 and,3111,context-switching-and,Context Switching
 #
 # Dex
