@@ -63,9 +63,9 @@ and,3107,battleships-and,Agile Battleships
 and,3108,survival-and,Survival At Sea
 and,3109,five-dysfunctions-and,5 Dysfunctions
 and,3110,team-health-check-and,Team Health Check
-and,3119,agile-maturity-and,Agile Maturity
-and,3121,scrum-master-and,Scrum Master Assessment
-and,3122,context-switching-and,Context Switching
+and,3121,agile-maturity-and,Agile Maturity
+and,3122,scrum-master-and,Scrum Master Assessment
+and,3111,context-switching-and,Context Switching
 #
 # Dex
 #
