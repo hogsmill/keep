@@ -25,47 +25,47 @@ default,3100,skills-matrix,Skills Matrix
 #
 # Ratesetter (Use licence)
 #
-ratesetter,3056,coin-game-ratesetter,Coin Game
-ratesetter,3057,no-estimates-ratesetter,No Estimates
-ratesetter,3073,no-estimates-mobile-ratesetter,No Estimates mobile
-ratesetter,3058,kanban-playground-ratesetter,Kanban Playground
-ratesetter,3074,kanban-playground-mobile-ratesetter,Kanban Playground Mobile
-ratesetter,3059,planning-poker-ratesetter,Planning Poker
-ratesetter,3060,battleships-ratesetter,Agile Battleships
-ratesetter,3062,survival-ratesetter,Survival At Sea
-ratesetter,3063,context-switching-ratesetter,Context Switching
+#ratesetter,3056,coin-game-ratesetter,Coin Game
+#ratesetter,3057,no-estimates-ratesetter,No Estimates
+#ratesetter,3073,no-estimates-mobile-ratesetter,No Estimates mobile
+#ratesetter,3058,kanban-playground-ratesetter,Kanban Playground
+#ratesetter,3074,kanban-playground-mobile-ratesetter,Kanban Playground Mobile
+#ratesetter,3059,planning-poker-ratesetter,Planning Poker
+#ratesetter,3060,battleships-ratesetter,Agile Battleships
+#ratesetter,3062,survival-ratesetter,Survival At Sea
+#ratesetter,3063,context-switching-ratesetter,Context Switching
 #
 # Everyday Agile (Regular use licence)
 #
-everydayagile,3064,coin-game-eagile,Coin Game
-everydayagile,3065,no-estimates-eagile,No Estimates
-everydayagile,3075,no-estimates-mobile-eagile,No Estimates Mobile
-everydayagile,3066,kanban-playground-eagile,Kanban Playground
-everydayagile,3076,kanban-playground-mobile-eagile,Kanban Playground Mobile
-everydayagile,3067,planning-poker-eagile,Planning Poker
-everydayagile,3068,battleships-eagile,Agile Battleships
-everydayagile,3069,survival-eagile,Survival At Sea
-everydayagile,3070,five-dysfunctions-eagile,5 Dysfunctions
-everydayagile,3071,team-health-check-eagile,Team Health Check
-everydayagile,3117,agile-maturity-eagile,Agile Maturity
-everydayagile,3118,scrum-master-eagile,Scrum Master Assessment
-everydayagile,3072,context-switching-eagile,Context Switching
+#everydayagile,3064,coin-game-eagile,Coin Game
+#everydayagile,3065,no-estimates-eagile,No Estimates
+#everydayagile,3075,no-estimates-mobile-eagile,No Estimates Mobile
+#everydayagile,3066,kanban-playground-eagile,Kanban Playground
+#everydayagile,3076,kanban-playground-mobile-eagile,Kanban Playground Mobile
+#everydayagile,3067,planning-poker-eagile,Planning Poker
+#everydayagile,3068,battleships-eagile,Agile Battleships
+#everydayagile,3069,survival-eagile,Survival At Sea
+#everydayagile,3070,five-dysfunctions-eagile,5 Dysfunctions
+#everydayagile,3071,team-health-check-eagile,Team Health Check
+#everydayagile,3117,agile-maturity-eagile,Agile Maturity
+#everydayagile,3118,scrum-master-eagile,Scrum Master Assessment
+#everydayagile,3072,context-switching-eagile,Context Switching
 #
 # AND (Regular use licence)
 #
-and,3113,coin-game-and,Coin Game
-and,3112,no-estimates-and,No Estimates
-and,3114,no-estimates-mobile-and,No Estimates Mobile
-and,3104,kanban-playground-and,Kanban Playground
-and,3105,kanban-playground-mobile-and,Kanban Playground Mobile
-and,3106,planning-poker-and,Planning Poker
-and,3107,battleships-and,Agile Battleships
-and,3108,survival-and,Survival At Sea
-and,3109,five-dysfunctions-and,5 Dysfunctions
-and,3110,team-health-check-and,Team Health Check
-and,3119,agile-maturity-and,Agile Maturity
-and,3120,scrum-master-and,Scrum Master Assessment
-and,3111,context-switching-and,Context Switching
+#and,3113,coin-game-and,Coin Game
+#and,3112,no-estimates-and,No Estimates
+#and,3114,no-estimates-mobile-and,No Estimates Mobile
+#and,3104,kanban-playground-and,Kanban Playground
+#and,3105,kanban-playground-mobile-and,Kanban Playground Mobile
+#and,3106,planning-poker-and,Planning Poker
+#and,3107,battleships-and,Agile Battleships
+#and,3108,survival-and,Survival At Sea
+#and,3109,five-dysfunctions-and,5 Dysfunctions
+#and,3110,team-health-check-and,Team Health Check
+#and,3119,agile-maturity-and,Agile Maturity
+#and,3120,scrum-master-and,Scrum Master Assessment
+#and,3111,context-switching-and,Context Switching
 #
 # Dex
 #
