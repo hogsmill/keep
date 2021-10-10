@@ -46,7 +46,9 @@ function customerPorts(apps) {
 }
 
 const customers = getCustomers()
-fs.unlinkSync('customerApps.txt')
+if (fs.existsSync('customerApps.txt')) {
+  fs.unlinkSync('customerApps.txt')
+}
 for (let i = 0; i < customers.length; i++) {
   const customer = customers[i]
   let customerApps = getCustomerApps(customer, getApps())
