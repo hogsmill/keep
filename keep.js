@@ -46,6 +46,7 @@ function customerPorts(apps) {
 }
 
 const customers = getCustomers()
+fs.unlinkSync('customerApps.txt')
 for (let i = 0; i < customers.length; i++) {
   const customer = customers[i]
   let customerApps = getCustomerApps(customer, getApps())
@@ -53,6 +54,7 @@ for (let i = 0; i < customers.length; i++) {
   customerApps = customerPorts(customerApps)
   for (j = 0; j < customerApps.length; j++) {
     const app = customerApps[j]
-    console.log([customer.route, app.port, app.route, app.name].join(','))
+    const appDef = [customer.route, app.port, app.route, app.name].join(',') + '\n'
+    fs.writeFile('customerApps.txt', appDef, { flag: 'a+' }, err => {})
   }
 }
