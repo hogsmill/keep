@@ -42,6 +42,7 @@ function customerPorts(apps) {
     app.port = envFile.match(/VUE_APP_PORT=([0-9]+)/)[1]
     customerApps.push(app)
   }
+  return customerApps
 }
 
 const customers = getCustomers()
