@@ -10,7 +10,7 @@
       {"route": "kanban-playground-mobile", "name": "Kanban Playground Mobile"},
       {"route": "context-switching", "name": "Context Switching"},
       {"route": "battleships", "name": "Agile Battleships"},
-      {"route": "survival", "name": "Survival at Sea"}
+      {"route": "survival", "name": "Survival At Sea"}
     ]
   },
   {
