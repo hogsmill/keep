@@ -19,8 +19,8 @@
     "apps": [
       {"route": "planning-poker", "name": "Planning Poker"},
       {"route": "team-health-check", "name": "Spotify Health Check"},
-      {"route": "five-dysfunctions", "name": "5 Dysfunctions of a Team"},
-      {"route": "agile-maturity", "name": "Agile Maturity Assessment"},
+      {"route": "five-dysfunctions", "name": "5 Dysfunctions"},
+      {"route": "agile-maturity", "name": "Agile Maturity"},
       {"route": "scrum-master", "name": "Scrum Master Assessment"}
     ]
   }
