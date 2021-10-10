@@ -15,8 +15,13 @@ do
     running=`ps -ef | grep node | grep "$port $app" | grep -v grep`
     if [ $? -ne 0 ]
     then
-      echo "Re-started \"$app\" server at `date`"
-      node /usr/apps/$dir/src/server.js $port "$app" $logFile &
+      echo "Re-starting \"$app\" server at `date`"
+      appServer=/usr/apps/$dir/src/server.js
+      if [ -f $appServer ]; then
+        node /usr/apps/$dir/src/server.js $port "$app" $logFile &
+      else
+        echo "No such file \"$app\""
+      fi
     fi
   fi
 done < $apps
@@ -34,9 +39,13 @@ do
     running=`ps -ef | grep node | grep "$port $app" | grep -v grep`
     if [ $? -ne 0 ]
     then
-      echo "Re-started \"$app\" server at `date`"
-      node /usr/apps/$dir/src/server.js $port "$app" $logFile &
-    fi
+      echo "Re-starting \"$app\" server at `date`"
+      appServer=/usr/apps/$dir/src/server.js
+      if [ -f $appServer ]; then
+        node /usr/apps/$dir/src/server.js $port "$app" $logFile &
+      else
+        echo "No such file \"$app\""
+      fi    fi
   fi
 done < $customerApps
 
