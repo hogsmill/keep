@@ -36,7 +36,7 @@ do
     app=`echo $line | cut -d, -f4`
     logFile="/usr/apps/logs/$dir.log"
 
-    echo "ps -ef | grep node | grep "$port $app" | grep -v grep"
+    echo "ps -ef | grep node | grep \"$port $app\" | grep -v grep"
     running=`ps -ef | grep node | grep "$port $app" | grep -v grep`
     if [ $? -ne 0 ]
     then
