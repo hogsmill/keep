@@ -36,10 +36,8 @@ do
     app=`echo $line | cut -d, -f4`
     logFile="/usr/apps/logs/$dir.log"
 
-    set -x
     running=`ps -ef | grep node | grep "$port $app" | grep -v grep`
-    set +x
-    exho $running
+    echo $running
     if [ $? -ne 0 ]
     then
       echo "Re-starting \"$app\" server for \"$server\" at `date`"
