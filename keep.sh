@@ -37,13 +37,10 @@ do
     logFile="/usr/apps/logs/$dir.log"
 
     running=`ps -ef | grep node | grep "$port $app" | grep -v grep`
-    echo $?
     if [ $? -ne 0 ]
     then
       echo "Re-starting \"$app\" server for \"$server\" at `date`"
       appServer=/usr/apps/$dir/src/server.js
-      echo $appServer
-      echo $port
       if [ -f $appServer ]; then
         node /usr/apps/$dir/src/server.js $port "$app" $logFile &
       else
