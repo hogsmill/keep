@@ -40,7 +40,7 @@ function customerPorts(apps) {
     const app = apps[i]
     envFile = fs.readFileSync('/usr/apps/' + app.route + '/.env', 'utf8')
     const port = envFile.match(/VUE_APP_PORT=([0-9]+)/)
-    console.log(port)
+    console.log(port)[1]
   }
 }
 
