@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Ratesetter",
+    "level": "Use",
+    "route": "ratesetter"
+  },
+  {
+    "name": "Everyday Agile",
+    "level": "Regular Use",
+    "route": "eagile"
+  },
+  {
+    "name": "AND",
+    "level": "Regular Use",
+    "route": "and"
+  }
+]

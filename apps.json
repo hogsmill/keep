@@ -1,0 +1,27 @@
+[
+  {
+    "level": 1,
+    "name": "Use",
+    "apps": [
+      {"route": "coin-game", "name": "Coin Game"},
+      {"route": "no-estimates", "name": "No Estimates"},
+      {"route": "no-estimates-mobile", "name": "No Estimates Mobile"},
+      {"route": "kanban-playground", "name": "Kanban Playground"},
+      {"route": "kanban-playground-mobile", "name": "Kanban Playground Mobile"},
+      {"route": "context-switching", "name": "Context Switching"},
+      {"route": "battleships", "name": "Agile Battleships"},
+      {"route": "survival", "name": "Survival at Sea"}
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Regular Use",
+    "apps": [
+      {"route": "planning-poker", "name": "Planning Poker"},
+      {"route": "team-health-check", "name": "Spotify Health Check"},
+      {"route": "five-dysfunctions", "name": "5 Dysfunctions of a Team"},
+      {"route": "agile-maturity", "name": "Agile Maturity Assessment"},
+      {"route": "scrum-master", "name": "Scrum Master Assessment"}
+    ]
+  }
+]
