@@ -39,16 +39,19 @@ function customerPorts(apps) {
   for (let i = 0; i < apps.length; i++) {
     const app = apps[i]
     envFile = fs.readFileSync('/usr/apps/' + app.route + '/.env', 'utf8')
-    const port = envFile.match(/VUE_APP_PORT=([0-9]+)/)[1]
-    console.log(port)
+    app.port = envFile.match(/VUE_APP_PORT=([0-9]+)/)[1]
+    customerApps.push(app)
   }
 }
 
 const customers = getCustomers()
 for (let i = 0; i < customers.length; i++) {
   const customer = customers[i]
-  console.log(customer.name)
   let customerApps = getCustomerApps(customer, getApps())
   customerApps = customerRoutes(customer, customerApps)
   customerApps = customerPorts(customerApps)
+  for (j = 0; j < customerApps.length; j++) {
+    const app = customerApps[i]
+    console.log([customer.route, app.port, app.route, app.name].join(','))
+  }
 }
