@@ -38,7 +38,7 @@ function customerPorts(apps) {
   let customerApps = []
   for (let i = 0; i < apps.length; i++) {
     const app = apps[i]
-    envFile = fs.readFileSync('/usr/apps/' + app.route + '.env', 'utf8')
+    envFile = fs.readFileSync('/usr/apps/' + app.route + '/.env', 'utf8')
     console.log(envFile)
   }
 }
