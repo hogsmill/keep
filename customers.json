@@ -13,5 +13,13 @@
     "name": "AND",
     "level": "Regular Use",
     "route": "and"
-  }
+  },
+  {
+    "name": "Zoran",
+    "level": "Single Game",
+    "route": "zoran"
+    "game": [
+      {"route": "no-estimates", "name": "no-estimates"}
+    ]
+  },
 ]

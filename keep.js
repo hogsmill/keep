@@ -21,15 +21,19 @@ function customerRoutes(customer, apps) {
 
 function getCustomerApps(customer, apps) {
   let customerApps = []
-  const useApps = apps.find((a) => {
-    return a.name == 'Use'
-  }).apps
-  customerApps = customerApps.concat(useApps)
-  if (customer.level == "Regular Use") {
-    const regularUseApps = apps.find((a) => {
-      return a.name == 'Regular Use'
+  if (customer.level == "Single Game") {
+    customerApps.push(customer.game)
+  } else {
+    const useApps = apps.find((a) => {
+      return a.name == 'Use'
     }).apps
-    customerApps = customerApps.concat(regularUseApps)
+    customerApps = customerApps.concat(useApps)
+    if (customer.level == "Regular Use") {
+      const regularUseApps = apps.find((a) => {
+        return a.name == 'Regular Use'
+      }).apps
+      customerApps = customerApps.concat(regularUseApps)
+    }
   }
   return customerApps
 }
