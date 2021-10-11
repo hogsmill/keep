@@ -81,7 +81,7 @@ funconf,3042,no-estimates-funconf,No Estimates - Funconf 2021
 #
 # Funconf
 #
-zoran,3079,no-estimates-zoran,No Estimates - Free Trial
+#zoran,3079,no-estimates-zoran,No Estimates - Free Trial
 #
 # Test Apps
 #
