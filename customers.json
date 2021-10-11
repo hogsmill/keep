@@ -18,8 +18,6 @@
     "name": "Zoran",
     "level": "Single Game",
     "route": "zoran",
-    "game": [
-      {"route": "no-estimates", "name": "No Estimates"}
-    ]
+    "game": {"route": "no-estimates", "name": "No Estimates"}
   }
 ]
