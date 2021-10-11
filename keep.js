@@ -57,6 +57,7 @@ for (let i = 0; i < customers.length; i++) {
   const customer = customers[i]
   let customerApps = getCustomerApps(customer, getApps())
   customerApps = customerRoutes(customer, customerApps)
+  console.log(customerApps)
   customerApps = customerPorts(customerApps)
   for (j = 0; j < customerApps.length; j++) {
     const app = customerApps[j]
