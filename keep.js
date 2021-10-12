@@ -13,6 +13,7 @@ function customerRoutes(customer, apps) {
   for (let i = 0; i < apps.length; i++) {
     const app = apps[i]
     const route = app.route + '-' + customer.route
+    console.log('route', app.route, customer.route, route)
     app.route = route
     customerApps.push(app)
   }
