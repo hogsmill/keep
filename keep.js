@@ -13,7 +13,6 @@ function customerRoutes(customer, apps) {
   for (let i = 0; i < apps.length; i++) {
     const app = apps[i]
     const route = app.route + '-' + customer.route
-    console.log('route', app.route, customer.route, route)
     app.route = route
     customerApps.push(app)
   }
@@ -46,8 +45,13 @@ function customerPorts(apps) {
   let customerApps = []
   for (let i = 0; i < apps.length; i++) {
     const app = apps[i]
-    envFile = fs.readFileSync('/usr/apps/' + app.route + '/.env', 'utf8')
-    app.port = envFile.match(/VUE_APP_PORT=([0-9]+)/)[1]
+    const envFile = '/usr/apps/' + app.route + '/.env'
+    if (fs.existsSync(envFile) {
+      envFile = fs.readFileSync('/usr/apps/' + app.route + '/.env', 'utf8')
+      app.port = envFile.match(/VUE_APP_PORT=([0-9]+)/)[1]
+    } else {
+      app.port = 0
+    }
     customerApps.push(app)
   }
   return customerApps
