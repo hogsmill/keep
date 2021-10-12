@@ -21,7 +21,7 @@ function customerRoutes(customer, apps) {
 
 // Customer levels:
 //  1 - Use
-//  2 - Regular Use 
+//  2 - Regular Use
 //  3 - All
 //
 function getCustomerApps(customer, apps) {
@@ -60,6 +60,7 @@ for (let i = 0; i < customers.length; i++) {
   const customer = customers[i]
   let customerApps = getCustomerApps(customer, getApps())
   customerApps = customerRoutes(customer, customerApps)
+  console.log(customerApps)
   customerApps = customerPorts(customerApps)
   for (j = 0; j < customerApps.length; j++) {
     const app = customerApps[j]
