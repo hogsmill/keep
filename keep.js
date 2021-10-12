@@ -64,7 +64,6 @@ if (fs.existsSync('customerApps.txt')) {
 for (let i = 0; i < customers.length; i++) {
   const customer = customers[i]
   let customerApps = getCustomerApps(customer, getApps())
-  console.log('-----------------------------')
   customerApps = customerRoutes(customer, customerApps)
   customerApps = customerPorts(customerApps)
   for (j = 0; j < customerApps.length; j++) {
