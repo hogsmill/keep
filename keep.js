@@ -45,6 +45,7 @@ function customerPorts(apps) {
   let customerApps = []
   for (let i = 0; i < apps.length; i++) {
     const app = apps[i]
+    console.log('/usr/apps/' + app.route + '/.env')
     envFile = fs.readFileSync('/usr/apps/' + app.route + '/.env', 'utf8')
     app.port = envFile.match(/VUE_APP_PORT=([0-9]+)/)[1]
     customerApps.push(app)
