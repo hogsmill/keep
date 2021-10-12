@@ -33,7 +33,7 @@ function getCustomerApps(customer, apps) {
     for (let i = 1; i <= 3; i++) {
       if (customer.level >= i) {
         const useApps = apps.find((a) => {
-          return a.i == customer.level
+          return a.level == i
         }).apps
         customerApps = customerApps.concat(useApps)
       }
