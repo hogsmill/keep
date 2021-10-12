@@ -1,17 +1,29 @@
+#
+# Levels:
+#  1 - use
+#  2 - Regular Use
+#  3 - All
+#
+
 [
   {
+    "name": "Test",
+    "level": "2",
+    "route": "test",
+  }
+  {
     "name": "Ratesetter",
-    "level": "Use",
+    "level": "1",
     "route": "ratesetter"
   },
   {
     "name": "Everyday Agile",
-    "level": "Regular Use",
+    "level": "2",
     "route": "eagile"
   },
   {
     "name": "AND",
-    "level": "Regular Use",
+    "level": "2",
     "route": "and"
   },
   {

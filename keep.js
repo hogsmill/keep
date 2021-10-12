@@ -24,16 +24,14 @@ function getCustomerApps(customer, apps) {
   if (customer.level == "Single Game") {
     customerApps.push(customer.game)
   } else {
-    const useApps = apps.find((a) => {
-      return a.name == 'Use'
-    }).apps
-    customerApps = customerApps.concat(useApps)
-    if (customer.level == "Regular Use") {
-      const regularUseApps = apps.find((a) => {
-        return a.name == 'Regular Use'
-      }).apps
-      customerApps = customerApps.concat(regularUseApps)
-    }
+    for (let i = 1; i <= 3; i++) {
+      if (customer.level >= i) {
+        const useApps = apps.find((a) => {
+          return a.level == customer.level
+        }).apps
+        customerApps = customerApps.concat(useApps)
+      }
+    })
   }
   return customerApps
 }

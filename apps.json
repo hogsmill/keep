@@ -23,5 +23,12 @@
       {"route": "agile-maturity", "name": "Agile Maturity"},
       {"route": "scrum-master", "name": "Scrum Master Assessment"}
     ]
+  },
+  {
+    "level": 3,
+    "name": "All",
+    "apps": [
+
+    ]
   }
 ]
