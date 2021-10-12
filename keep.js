@@ -31,7 +31,7 @@ function getCustomerApps(customer, apps) {
         }).apps
         customerApps = customerApps.concat(useApps)
       }
-    })
+    }
   }
   return customerApps
 }
