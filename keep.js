@@ -19,6 +19,11 @@ function customerRoutes(customer, apps) {
   return customerApps
 }
 
+// Customer levels:
+//  1 - Use
+//  2 - Regular Use 
+//  3 - All
+//
 function getCustomerApps(customer, apps) {
   let customerApps = []
   if (customer.level == "Single Game") {
