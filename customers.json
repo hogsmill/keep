@@ -1,6 +1,11 @@
 
 [
   {
+    "name": "Test",
+    "level": "2",
+    "route": "new"
+  },
+  {
     "name": "Ratesetter",
     "level": "1",
     "route": "ratesetter"
@@ -20,10 +25,5 @@
     "level": "Single Game",
     "route": "zoran",
     "game": {"route": "no-estimates", "name": "No Estimates"}
-  },
-  {
-    "name": "Test",
-    "level": "2",
-    "route": "test"
   }
 ]
