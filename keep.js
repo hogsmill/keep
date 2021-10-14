@@ -69,7 +69,7 @@ for (let i = 0; i < customers.length; i++) {
   for (j = 0; j < customerApps.length; j++) {
     const route = customer.route ? customer.route : 'default'
     const app = customerApps[j]
-    const appDef = [customer.route, app.port, app.route, app.name].join(',') + '\n'
+    const appDef = [route, app.port, app.route, app.name].join(',') + '\n'
     fs.writeFile('customerApps.txt', appDef, { flag: 'a+' }, err => {})
   }
 }
