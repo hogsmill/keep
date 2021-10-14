@@ -20,7 +20,7 @@ default,3008,battleships,Agile Battleships
 default,3011,survival,Survival At Sea
 default,3003,context-switching,Context Switching
 default,3033,requirements-game,BA Shouting
-default,3016,socket-test,Socket Test
+#default,3016,socket-test,Socket Test
 default,3100,skills-matrix,Skills Matrix
 #
 # Ratesetter (Use licence)

@@ -28,6 +28,7 @@
     "level": 3,
     "name": "All",
     "apps": [
+      {"route": "socket-test", "name": "Socket Test"}
     ]
   }
 ]

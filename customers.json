@@ -1,8 +1,12 @@
 
 [
   {
+    "name": "Default",
+    "level": "3"
+  },
+  {
     "name": "Test",
-    "level": "2",
+    "level": "3",
     "route": "new"
   },
   {
