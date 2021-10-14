@@ -2,7 +2,7 @@
 # Default Apps
 #
 default,3099,agilesimulations,Agile Simulations
-default,3000,coin-game,Coin Game
+#default,3000,coin-game,Coin Game
 default,3007,no-estimates,No Estimates
 default,3018,no-estimates-mobile,No Estimates Mobile
 default,3038,five-dysfunctions,5 Dysfunctions
@@ -97,7 +97,7 @@ funconf,3042,no-estimates-funconf,No Estimates - Funconf 2021
 #
 # Guardian Training
 #
-guardian,3024,coin-game-guardian,Coin Game
+#guardian,3024,coin-game-guardian,Coin Game
 #guardian,3026,battleships-guardian,Battleships
 guardian,3029,planning-poker-guardian,Planning Poker
 guardian,3032,context-switching-guardian,Context Switching
