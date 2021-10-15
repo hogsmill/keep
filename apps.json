@@ -29,7 +29,7 @@
     "name": "All",
     "apps": [
       {"route": "socket-test", "name": "Socket Test"},
-      {"route": "requirements", "name": "Requirements Game"}
+      {"route": "requirements", "name": "Requirements Game"},
       {"route": "pipeline-game", "name": "Pipeline Game"}
     ]
   }
