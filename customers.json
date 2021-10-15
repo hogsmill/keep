@@ -25,6 +25,11 @@
     "route": "and"
   },
   {
+    "name": "Guardian",
+    "level": "2",
+    "route": "guardian"
+  },
+  {
     "name": "Zoran",
     "level": "Single Game",
     "route": "zoran",
