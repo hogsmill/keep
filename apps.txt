@@ -3,7 +3,7 @@
 #
 default,3099,agilesimulations,Agile Simulations
 #default,3000,coin-game,Coin Game
-default,3007,no-estimates,No Estimates
+#default,3007,no-estimates,No Estimates
 default,3018,no-estimates-mobile,No Estimates Mobile
 default,3038,five-dysfunctions,5 Dysfunctions
 default,3039,team-health-check,Team Health Check
@@ -11,7 +11,7 @@ default,3077,agile-maturity,Agile Maturity
 default,3078,scrum-master,Scrum Master Assessment
 #default,3025,pipeline-game,Pipeline Game
 default,3054,death-star-builder,Death Star Builder
-default,3030,kanban-playground,Kanban Playground
+#default,3030,kanban-playground,Kanban Playground
 default,3031,kanban-playground-mobile,Kanban Playground Mobile
 default,3017,interdependent-teams,Interdependent Teams
 default,3015,test-app,L-EAF Test App
@@ -23,86 +23,13 @@ default,3033,requirements-game,BA Shouting
 #default,3016,socket-test,Socket Test
 default,3100,skills-matrix,Skills Matrix
 #
-# Ratesetter (Use licence)
-#
-#ratesetter,3056,coin-game-ratesetter,Coin Game
-#ratesetter,3057,no-estimates-ratesetter,No Estimates
-#ratesetter,3073,no-estimates-mobile-ratesetter,No Estimates mobile
-#ratesetter,3058,kanban-playground-ratesetter,Kanban Playground
-#ratesetter,3074,kanban-playground-mobile-ratesetter,Kanban Playground Mobile
-#ratesetter,3059,planning-poker-ratesetter,Planning Poker
-#ratesetter,3060,battleships-ratesetter,Agile Battleships
-#ratesetter,3062,survival-ratesetter,Survival At Sea
-#ratesetter,3063,context-switching-ratesetter,Context Switching
-#
-# Everyday Agile (Regular use licence)
-#
-#everydayagile,3064,coin-game-eagile,Coin Game
-#everydayagile,3065,no-estimates-eagile,No Estimates
-#everydayagile,3075,no-estimates-mobile-eagile,No Estimates Mobile
-#everydayagile,3066,kanban-playground-eagile,Kanban Playground
-#everydayagile,3076,kanban-playground-mobile-eagile,Kanban Playground Mobile
-#everydayagile,3067,planning-poker-eagile,Planning Poker
-#everydayagile,3068,battleships-eagile,Agile Battleships
-#everydayagile,3069,survival-eagile,Survival At Sea
-#everydayagile,3070,five-dysfunctions-eagile,5 Dysfunctions
-#everydayagile,3071,team-health-check-eagile,Team Health Check
-#everydayagile,3117,agile-maturity-eagile,Agile Maturity
-#everydayagile,3118,scrum-master-eagile,Scrum Master Assessment
-#everydayagile,3072,context-switching-eagile,Context Switching
-#
-# AND (Regular use licence)
-#
-#and,3113,coin-game-and,Coin Game
-#and,3112,no-estimates-and,No Estimates
-#and,3114,no-estimates-mobile-and,No Estimates Mobile
-#and,3104,kanban-playground-and,Kanban Playground
-#and,3105,kanban-playground-mobile-and,Kanban Playground Mobile
-#and,3106,planning-poker-and,Planning Poker
-#and,3107,battleships-and,Agile Battleships
-#and,3108,survival-and,Survival At Sea
-#and,3109,five-dysfunctions-and,5 Dysfunctions
-#and,3110,team-health-check-and,Team Health Check
-#and,3119,agile-maturity-and,Agile Maturity
-#and,3120,scrum-master-and,Scrum Master Assessment
-#and,3111,context-switching-and,Context Switching
-#
 # Dex
 #
-dex,3050,coin-game-dex,Coin Game Dex
-dex,3051,no-estimates-dex,No Estimates Dex
+#dex,3050,coin-game-dex,Coin Game Dex
+#dex,3051,no-estimates-dex,No Estimates Dex
 dex,3052,no-estimates-mobile-dex,No Estimates Mobile Dex
 #dex,3053,pipeline-game-dex,Pipeline Game Dex
 dex,3055,death-star-builder-dex,Death Star Builder Dex
-#
-# Funconf
-#
-funconf,3042,no-estimates-funconf,No Estimates - Funconf 2021
-#
-# Funconf
-#
-#zoran,3079,no-estimates-zoran,No Estimates - Free Trial
-#
-# Test Apps
-#
-#test,3020,no-estimates-new,No Estimates New
-#test,3021,no-estimates-mobile-new,No Estimates Mobile New
-#test,3034,planning-poker-new,Planning Poker New
-#test,3035,coin-game-new,Coin Game New
-#test,3040,five-dysfunctions-new,5 Dysfunctions New
-#test,3041,team-health-check-new,Team Health Check New
-#test,3036,battleships-new,Agile Battleships New
-#test,3027,survival-new,Survival New
-#test,3103,socket-test-new,Socket Test New
-#
-# Guardian Training
-#
-#guardian,3024,coin-game-guardian,Coin Game
-#guardian,3026,battleships-guardian,Battleships
-#guardian,3029,planning-poker-guardian,Planning Poker
-#guardian,3032,context-switching-guardian,Context Switching
-guardian,3101,five-dysfunctions-guardian,5 Dysfunctions
-guardian,3102,team-health-check-guardian,Team Health Check
 #
 # Other apps (default)
 #
