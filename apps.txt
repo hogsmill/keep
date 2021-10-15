@@ -15,7 +15,7 @@ default,3030,kanban-playground,Kanban Playground
 default,3031,kanban-playground-mobile,Kanban Playground Mobile
 default,3017,interdependent-teams,Interdependent Teams
 default,3015,test-app,L-EAF Test App
-default,3004,planning-poker,Planning Poker
+#default,3004,planning-poker,Planning Poker
 #default,3008,battleships,Agile Battleships
 #default,3011,survival,Survival At Sea
 default,3003,context-switching,Context Switching
@@ -99,7 +99,7 @@ funconf,3042,no-estimates-funconf,No Estimates - Funconf 2021
 #
 #guardian,3024,coin-game-guardian,Coin Game
 #guardian,3026,battleships-guardian,Battleships
-guardian,3029,planning-poker-guardian,Planning Poker
+#guardian,3029,planning-poker-guardian,Planning Poker
 guardian,3032,context-switching-guardian,Context Switching
 guardian,3101,five-dysfunctions-guardian,5 Dysfunctions
 guardian,3102,team-health-check-guardian,Team Health Check
