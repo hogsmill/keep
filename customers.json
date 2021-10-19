@@ -30,6 +30,11 @@
     "route": "guardian"
   },
   {
+    "name": "Richemont",
+    "level": "2",
+    "route": "richemont"
+  },
+  {
     "name": "Zoran",
     "level": "Single Game",
     "route": "zoran",
