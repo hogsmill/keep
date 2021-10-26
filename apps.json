@@ -31,6 +31,7 @@
       {"route": "socket-test", "name": "Socket Test"},
       {"route": "requirements", "name": "Requirements Game"},
       {"route": "pipeline-game", "name": "Pipeline Game"}
+      {"route": "training-app", "name": "Training App"}
     ]
   }
 ]
