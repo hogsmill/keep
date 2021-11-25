@@ -22,14 +22,15 @@ function customerRoutes(customer, apps) {
 // Customer levels:
 //  1 - Use
 //  2 - Regular Use
-//  3 - All
+//  3 - Special (ABN)
+//  4 - All
 //
 function getCustomerApps(customer, apps) {
   let customerApps = []
   if (customer.level == "Single Game") {
     customerApps.push(customer.game)
   } else {
-    for (let i = 1; i <= 3; i++) {
+    for (let i = 1; i <= 4; i++) {
       if (customer.level >= i) {
         const useApps = apps.find((a) => {
           return a.level == i
