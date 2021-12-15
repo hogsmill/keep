@@ -35,6 +35,11 @@
     "route": "richemont"
   },
   {
+    "name": "Bud",
+    "level": "1",
+    "route": "abn"
+  },
+  {
     "name": "Zoran",
     "level": "Single Game",
     "route": "zoran",

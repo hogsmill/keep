@@ -22,8 +22,8 @@ function customerRoutes(customer, apps) {
 // Customer levels:
 //  1 - Use
 //  2 - Regular Use
-//  3 - Special (ABN)
-//  4 - All
+//  3 - Dedicated (ABN)
+//  4 - Admin
 //
 function getCustomerApps(customer, apps) {
   let customerApps = []
