@@ -21,7 +21,8 @@
       {"route": "team-health-check", "name": "Team Health Check"},
       {"route": "five-dysfunctions", "name": "5 Dysfunctions"},
       {"route": "agile-maturity", "name": "Agile Maturity"},
-      {"route": "scrum-master", "name": "Scrum Master Assessment"}
+      {"route": "scrum-master", "name": "Scrum Master Assessment"},
+      {"route": "assessment-dashboard", "name": "Assessment Dashboard"}
     ]
   },
   {
