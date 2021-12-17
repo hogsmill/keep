@@ -49,7 +49,7 @@ function customerPorts(apps) {
     const envFile = '/usr/apps/' + app.route + '/.env'
     if (fs.existsSync(envFile)) {
       const env = fs.readFileSync(envFile, 'utf8')
-      app.port = env.match(/VUE_APP_PORT=([0-9]+)/)[1]
+      app.port = env.match(/VUE_APP_PORT=([0-9]+)/) ? env.match(/VUE_APP_PORT=([0-9]+)/)[1] : 0
     } else {
       app.port = 0
     }
