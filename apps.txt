@@ -2,14 +2,14 @@
 # Default Apps
 #
 default,3099,agilesimulations,Agile Simulations
-default,3054,death-star-builder,Death Star Builder
+#default,3054,death-star-builder,Death Star Builder
 default,3017,interdependent-teams,Interdependent Teams
-default,3015,test-app,L-EAF Test App
+#default,3015,test-app,L-EAF Test App
 default,3100,skills-matrix,Skills Matrix
 #
 # Dex
 #
-dex,3055,death-star-builder-dex,Death Star Builder Dex
+#dex,3055,death-star-builder-dex,Death Star Builder Dex
 #
 # Other apps (default)
 #
