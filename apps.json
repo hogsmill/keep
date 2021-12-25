@@ -37,8 +37,7 @@
     "name": "All",
     "apps": [
       {"route": "socket-test", "name": "Socket Test"},
-      {"route": "requirements", "name": "Requirements Game"},
-      {"route": "training-app", "name": "Training App"}
+      {"route": "requirements", "name": "Requirements Game"}
     ]
   }
 ]
