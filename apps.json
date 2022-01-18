@@ -38,7 +38,7 @@
     "apps": [
       {"route": "socket-test", "name": "Socket Test"},
       {"route": "google-meet", "name": "Google Meet"},
-      {"route": "organisaton-model", "name": "Organisation Model"},
+      {"route": "organisation-model", "name": "Organisation Model"},
       {"route": "requirements", "name": "Requirements Game"}
     ]
   }
