@@ -29,6 +29,7 @@
     "level": 3,
     "name": "Special Use",
     "apps": [
+      {"route": "organisation-model", "name": "Organisation Model"},
       {"route": "pipeline-game", "name": "Pipeline Game"}
     ]
   },
@@ -38,7 +39,6 @@
     "apps": [
       {"route": "socket-test", "name": "Socket Test"},
       {"route": "google-meet", "name": "Google Meet"},
-      {"route": "organisation-model", "name": "Organisation Model"},
       {"route": "requirements", "name": "Requirements Game"}
     ]
   }
