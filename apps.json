@@ -30,7 +30,8 @@
     "name": "Special Use",
     "apps": [
       {"route": "organisation-model", "name": "Organisation Model"},
-      {"route": "pipeline-game", "name": "Pipeline Game"}
+      {"route": "pipeline-game", "name": "Pipeline Game"},
+      {"route": "monte-carlo", "name": "Monte Carlo Simulation"}
     ]
   },
   {
