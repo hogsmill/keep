@@ -19,9 +19,21 @@
     "apps": [
       {"route": "planning-poker", "name": "Planning Poker"},
       {"route": "team-health-check", "name": "Team Health Check"},
+      {"route": "team-health-check-individual", "name": "Team Health Check"},
+      {"route": "team-health-check-organisation", "name": "Team Health Check"},
+      {"route": "team-health-check-organisation-model", "name": "Team Health Check"},
       {"route": "five-dysfunctions", "name": "5 Dysfunctions"},
+      {"route": "five-dysfunctions-individual", "name": "5 Dysfunctions"},
+      {"route": "five-dysfunctions-organisation", "name": "5 Dysfunctions"},
+      {"route": "five-dysfunctions-organisation-model", "name": "5 Dysfunctions"},
       {"route": "agile-maturity", "name": "Agile Maturity"},
+      {"route": "agile-maturity-individual", "name": "Agile Maturity"},
+      {"route": "agile-maturity-organisation", "name": "Agile Maturity"},
+      {"route": "agile-maturity-organisation-model", "name": "Agile Maturity"},
       {"route": "scrum-master", "name": "Scrum Master Assessment"},
+      {"route": "scrum-master-individual", "name": "Scrum Master Assessment"},
+      {"route": "scrum-master-organisation", "name": "Scrum Master Assessment"},
+      {"route": "scrum-master-organisation-model", "name": "Scrum Master Assessment"},
       {"route": "assessment-dashboard", "name": "Assessment Dashboard"}
     ]
   },
