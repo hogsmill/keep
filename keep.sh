@@ -19,6 +19,7 @@ do
       echo "Re-starting \"$app\" server at `date`" >> $logOut
       appServer=/usr/apps/$dir/src/server.js
       if [ -f $appServer ]; then
+        echo "node /usr/apps/$dir/src/server.js $port \"$app\" $logFile &" >> $logOut
         node /usr/apps/$dir/src/server.js $port "$app" $logFile &
       else
         echo "No such file \"$app\"" >> $logOut
