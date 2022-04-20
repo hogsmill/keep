@@ -35,11 +35,6 @@
     "route": "and"
   },
   {
-    "name": "Richemont",
-    "level": "2",
-    "route": "richemont"
-  },
-  {
     "name": "Bud",
     "level": "1",
     "route": "bud"

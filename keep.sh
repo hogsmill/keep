@@ -1,6 +1,7 @@
 #!/bin/bash
 apps='/usr/keep/apps.txt'
 customerApps='/usr/keep/customerApps.txt'
+logOut='keep.log'
 
 while read line
 do
@@ -15,12 +16,12 @@ do
     running=`ps -ef | grep node | grep "$port $app" | grep -v grep`
     if [ $? -ne 0 ]
     then
-      echo "Re-starting \"$app\" server at `date`"
+      echo "Re-starting \"$app\" server at `date`" >> $logOut
       appServer=/usr/apps/$dir/src/server.js
       if [ -f $appServer ]; then
         node /usr/apps/$dir/src/server.js $port "$app" $logFile &
       else
-        echo "No such file \"$app\""
+        echo "No such file \"$app\"" >> $logOut
       fi
     fi
   fi
@@ -39,12 +40,12 @@ do
     running=`ps -ef | grep node | grep "$port $app" | grep -v grep`
     if [ $? -ne 0 ]
     then
-      echo "Re-starting \"$app\" server for \"$server\" at `date`"
+      echo "Re-starting \"$app\" server for \"$server\" at `date`"  =>> $logOut
       appServer=/usr/apps/$dir/src/server.js
       if [ -f $appServer ]; then
         node /usr/apps/$dir/src/server.js $port "$app" $logFile &
       else
-        echo "No such file \"$app\""
+        echo "No such file \"$app\"" >> $logOut
       fi    fi
   fi
 done < $customerApps
