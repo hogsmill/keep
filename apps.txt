@@ -1,6 +1,7 @@
 # Port, App, name, config (yes)
 # Default Apps
 #
+default,3010,pig-racing,Pig Racing
 default,3099,agilesimulations,Agile Simulations
 #default,3054,death-star-builder,Death Star Builder
 default,3017,interdependent-teams,Interdependent Teams
