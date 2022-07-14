@@ -3,56 +3,56 @@
     "level": 1,
     "name": "Use",
     "apps": [
-      {"route": "coin-game", "name": "Coin Game"},
-      {"route": "no-estimates", "name": "No Estimates"},
-      {"route": "no-estimates-mobile", "name": "No Estimates Mobile"},
-      {"route": "kanban-playground", "name": "Kanban Playground"},
-      {"route": "kanban-playground-mobile", "name": "Kanban Playground Mobile"},
-      {"route": "context-switching", "name": "Context Switching"},
-      {"route": "battleships", "name": "Agile Battleships"},
-      {"route": "survival", "name": "Survival At Sea"}
+      {"route": "coin-game", "name": "Coin Game", "active": "yes"},
+      {"route": "no-estimates", "name": "No Estimates", "active": "yes"},
+      {"route": "no-estimates-mobile", "name": "No Estimates Mobile", "active": "yes"},
+      {"route": "kanban-playground", "name": "Kanban Playground", "active": "no"},
+      {"route": "kanban-playground-mobile", "name": "Kanban Playground Mobile", "active": "no"},
+      {"route": "context-switching", "name": "Context Switching", "active": "yes"},
+      {"route": "battleships", "name": "Agile Battleships", "active": "yes"},
+      {"route": "survival", "name": "Survival At Sea", "active": "yes"}
     ]
   },
   {
     "level": 2,
     "name": "Regular Use",
     "apps": [
-      {"route": "planning-poker", "name": "Planning Poker"},
-      {"route": "team-health-check", "name": "Team Health Check"},
-      {"route": "team-health-check-individual", "name": "Team Health Check"},
-      {"route": "team-health-check-organisation", "name": "Team Health Check"},
-      {"route": "team-health-check-organisation-model", "name": "Team Health Check"},
-      {"route": "five-dysfunctions", "name": "5 Dysfunctions"},
-      {"route": "five-dysfunctions-individual", "name": "5 Dysfunctions"},
-      {"route": "five-dysfunctions-organisation", "name": "5 Dysfunctions"},
-      {"route": "five-dysfunctions-organisation-model", "name": "5 Dysfunctions"},
-      {"route": "agile-maturity", "name": "Agile Maturity"},
-      {"route": "agile-maturity-individual", "name": "Agile Maturity"},
-      {"route": "agile-maturity-organisation", "name": "Agile Maturity"},
-      {"route": "agile-maturity-organisation-model", "name": "Agile Maturity"},
-      {"route": "scrum-master", "name": "Scrum Master Assessment"},
-      {"route": "scrum-master-individual", "name": "Scrum Master Assessment"},
-      {"route": "scrum-master-organisation", "name": "Scrum Master Assessment"},
-      {"route": "scrum-master-organisation-model", "name": "Scrum Master Assessment"},
-      {"route": "assessment-dashboard", "name": "Assessment Dashboard"}
+      {"route": "planning-poker", "name": "Planning Poker", "active": "no"},
+      {"route": "team-health-check", "name": "Team Health Check", "active": "no"},
+      {"route": "team-health-check-individual", "name": "Team Health Check", "active": "no"},
+      {"route": "team-health-check-organisation", "name": "Team Health Check", "active": "no"},
+      {"route": "team-health-check-organisation-model", "name": "Team Health Check", "active": "no"},
+      {"route": "five-dysfunctions", "name": "5 Dysfunctions", "active": "no"},
+      {"route": "five-dysfunctions-individual", "name": "5 Dysfunctions", "active": "no"},
+      {"route": "five-dysfunctions-organisation", "name": "5 Dysfunctions", "active": "no"},
+      {"route": "five-dysfunctions-organisation-model", "name": "5 Dysfunctions", "active": "no"},
+      {"route": "agile-maturity", "name": "Agile Maturity", "active": "no"},
+      {"route": "agile-maturity-individual", "name": "Agile Maturity", "active": "no"},
+      {"route": "agile-maturity-organisation", "name": "Agile Maturity", "active": "no"},
+      {"route": "agile-maturity-organisation-model", "name": "Agile Maturity", "active": "no"},
+      {"route": "scrum-master", "name": "Scrum Master Assessment", "active": "no"},
+      {"route": "scrum-master-individual", "name": "Scrum Master Assessment", "active": "no"},
+      {"route": "scrum-master-organisation", "name": "Scrum Master Assessment", "active": "no"},
+      {"route": "scrum-master-organisation-model", "name": "Scrum Master Assessment", "active": "no"},
+      {"route": "assessment-dashboard", "name": "Assessment Dashboard", "active": "no"}
     ]
   },
   {
     "level": 3,
     "name": "Special Use",
     "apps": [
-      {"route": "organisation-model", "name": "Organisation Model"},
-      {"route": "pipeline-game", "name": "Pipeline Game"},
-      {"route": "monte-carlo", "name": "Monte Carlo Simulation"}
+      {"route": "organisation-model", "name": "Organisation Model", "active": "no"},
+      {"route": "pipeline-game", "name": "Pipeline Game", "active": "no"},
+      {"route": "monte-carlo", "name": "Monte Carlo Simulation", "active": "yes"}
     ]
   },
   {
     "level": 4,
     "name": "All",
     "apps": [
-      {"route": "socket-test", "name": "Socket Test"},
-      {"route": "google-meet", "name": "Google Meet"},
-      {"route": "requirements", "name": "Requirements Game"}
+      {"route": "socket-test", "name": "Socket Test", "active": "yes"},
+      {"route": "google-meet", "name": "Google Meet", "active": "no"},
+      {"route": "requirements", "name": "Requirements Game", "active": "no"}
     ]
   }
 ]

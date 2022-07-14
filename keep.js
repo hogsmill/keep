@@ -8,6 +8,16 @@ function getApps() {
   return JSON.parse(fs.readFileSync('apps.json', 'utf8'))
 }
 
+function getActiveApps(apps) {
+  const activeApps = []
+  for (let i = 0; i < apps.length; i++) {
+    if (apps[i].active == "yes") {
+      activeApps.push(apps[i])
+    }
+  }
+  return activeApps
+}
+
 function customerRoutes(customer, apps) {
   const customerApps = []
   for (let i = 0; i < apps.length; i++) {
@@ -32,9 +42,10 @@ function getCustomerApps(customer, apps) {
   } else {
     for (let i = 1; i <= 4; i++) {
       if (customer.level >= i) {
-        const useApps = apps.find((a) => {
+        let useApps = apps.find((a) => {
           return a.level == i
         }).apps
+        useApps = getActiveApps(useApps)
         customerApps = customerApps.concat(useApps)
       }
     }
