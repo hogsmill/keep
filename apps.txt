@@ -2,6 +2,7 @@
 # Default Apps
 #
 default,3099,agilesimulations,Agile Simulations
+default,4850,lean-enabled,Lean Enabled
 #default,3054,death-star-builder,Death Star Builder
 default,3017,interdependent-teams,Interdependent Teams
 #default,3015,test-app,L-EAF Test App
