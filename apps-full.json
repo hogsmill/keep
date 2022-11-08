@@ -1,0 +1,58 @@
+[
+  {
+    "level": 1,
+    "name": "Use",
+    "apps": [
+      {"route": "coin-game", "name": "Coin Game"},
+      {"route": "no-estimates", "name": "No Estimates"},
+      {"route": "no-estimates-mobile", "name": "No Estimates Mobile"},
+      {"route": "kanban-playground", "name": "Kanban Playground"},
+      {"route": "kanban-playground-mobile", "name": "Kanban Playground Mobile"},
+      {"route": "context-switching", "name": "Context Switching"},
+      {"route": "battleships", "name": "Agile Battleships"},
+      {"route": "survival", "name": "Survival At Sea"}
+    ]
+  },
+  {
+    "level": 2,
+    "name": "Regular Use",
+    "apps": [
+      {"route": "planning-poker", "name": "Planning Poker"},
+      {"route": "team-health-check", "name": "Team Health Check"},
+      {"route": "team-health-check-individual", "name": "Team Health Check"},
+      {"route": "team-health-check-organisation", "name": "Team Health Check"},
+      {"route": "team-health-check-organisation-model", "name": "Team Health Check"},
+      {"route": "five-dysfunctions", "name": "5 Dysfunctions"},
+      {"route": "five-dysfunctions-individual", "name": "5 Dysfunctions"},
+      {"route": "five-dysfunctions-organisation", "name": "5 Dysfunctions"},
+      {"route": "five-dysfunctions-organisation-model", "name": "5 Dysfunctions"},
+      {"route": "agile-maturity", "name": "Agile Maturity"},
+      {"route": "agile-maturity-individual", "name": "Agile Maturity"},
+      {"route": "agile-maturity-organisation", "name": "Agile Maturity"},
+      {"route": "agile-maturity-organisation-model", "name": "Agile Maturity"},
+      {"route": "scrum-master", "name": "Scrum Master Assessment"},
+      {"route": "scrum-master-individual", "name": "Scrum Master Assessment"},
+      {"route": "scrum-master-organisation", "name": "Scrum Master Assessment"},
+      {"route": "scrum-master-organisation-model", "name": "Scrum Master Assessment"},
+      {"route": "assessment-dashboard", "name": "Assessment Dashboard"}
+    ]
+  },
+  {
+    "level": 3,
+    "name": "Special Use",
+    "apps": [
+      {"route": "organisation-model", "name": "Organisation Model"},
+      {"route": "pipeline-game", "name": "Pipeline Game"},
+      {"route": "monte-carlo", "name": "Monte Carlo Simulation"}
+    ]
+  },
+  {
+    "level": 4,
+    "name": "All",
+    "apps": [
+      {"route": "socket-test", "name": "Socket Test"},
+      {"route": "google-meet", "name": "Google Meet"},
+      {"route": "requirements", "name": "Requirements Game"}
+    ]
+  }
+]
