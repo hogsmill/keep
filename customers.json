@@ -18,31 +18,5 @@
     "name": "ABN",
     "level": "3",
     "route": "abn"
-  },
-  {
-    "name": "Ratesetter",
-    "level": "2",
-    "route": "ratesetter"
-  },
-  {
-    "name": "Everyday Agile",
-    "level": "2",
-    "route": "eagile"
-  },
-  {
-    "name": "AND",
-    "level": "2",
-    "route": "and"
-  },
-  {
-    "name": "Bud",
-    "level": "1",
-    "route": "bud"
-  },
-  {
-    "name": "Zoran",
-    "level": "Single Game",
-    "route": "zoran",
-    "game": {"route": "no-estimates", "name": "No Estimates"}
   }
 ]
