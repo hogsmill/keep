@@ -45,10 +45,10 @@ do
     if [ $? -ne 0 ]
     then
       echo "Re-starting \"$app\" server for \"$server\" at `date`"
-      appServer=/usr/apps/agilesimulations/$dir/src/server.js
+      appServer=/usr/apps/$dir/src/server.js
       if [ -f $appServer ]; then
-        echo "    node /usr/apps/agilesimulations/$dir/src/server.js $port \"$app\" $logFile &"
-        node /usr/apps/agilesimulations/$dir/src/server.js $port "$app" $logFile &
+        echo "    node /usr/apps/$dir/src/server.js $port \"$app\" $logFile &"
+        node /usr/apps/$dir/src/server.js $port "$app" $logFile &
       else
         echo "No such file \"$app\"" >> $logOut
       fi    fi
